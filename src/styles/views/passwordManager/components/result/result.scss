@@ -1,0 +1,21 @@
+@import "../../../../base.scss";
+
+.result-container {
+    .result-header {
+        display: flex;
+        div {
+            width: 50px;
+            display: flex;
+            margin-right: 20px;
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .footer {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

@@ -1,0 +1,54 @@
+{
+  "components": {
+    "passwordManager": {
+      "title": "Create your Password Manager",
+      "information": {
+        "imageText1": "Save here all your passwords, data or any information, forget paper notes and unprotected applications.",
+        "imageAlt1": "save passwords",
+        "imageText2": "Create your master password: only you can access your secrets with it.",
+        "imageAlt2": "create passwords",
+        "howFuctionTitle": "How it works",
+        "howFuctionText": "First of all, you must create a different password for your electronic belongings. You will not be able to recover your password, so remember it well.",
+        "dataToSaveTitle": "What data can you save",
+        "dataToSaveText": "For example, the number of your card, the PIN and PUNK of your mobile phone, the serial number of one of your devices or any information you need to have in a safe place."
+      },
+      "formPassword": {
+        "text1": "First, you must create a different password for your electronic belongings.",
+        "text2": "You will not be able to recover your password, so remember it well.",
+        "passwordLabel": "Create your Master Password",
+        "passwordPlaceholder": "Enter your password",
+        "imageEyeAlt": "Eye",
+        "repeatPasswordLabel": "Repeat your Master Password",
+        "repeatPasswordPlaceholder": "Repeat your Password",
+        "clueText": "You can also create a hint to help you remember your master password.",
+        "clueLabel": "Create your hint to remember your password (optional)",
+        "cluePlaceholder": "Enter your clue"
+      },
+      "result": {
+        "imageCheckAlt": "Correct",
+        "imageWarmingAlt": "Error",
+        "checkTitle": "Your Password Manager is already created!",
+        "checkText": "You can check it from the menu.",
+        "warmingTitle": "There was an error",
+        "warmingText": "We couldn't create your Master Password. Please try again later."
+      }
+    }
+  },
+  "shared": {
+    "buttons": {
+      "next": "Next",
+      "cancel": "Cancel",
+      "access": "Access",
+      "return": "Return to {{name}}"
+    },
+    "validations": {
+      "password": {
+        "required": "The password is required.",
+        "min": "The password is very short - it must be at least {{number}} characters.",
+        "regex": "The password must include a number and a capital letter.",
+        "match": "Passwords do not match.",
+        "repeatRequired": "Repeat the password is required."
+      }
+    }
+  }
+}

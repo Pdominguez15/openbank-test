@@ -1,0 +1,32 @@
+@import "../../base.scss";
+
+.customButton {
+    padding: 15px 25px;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+
+    color: $white;
+    background-color: $secondary-color;
+    &:disabled {
+        background-color: rgb(210, 214, 218);
+        cursor: not-allowed;
+    }
+}
+
+.empty {
+    color: $secondary-color;
+    background-color: $white;
+
+    &:disabled {
+        background-color: $white;
+        cursor: not-allowed;
+    }
+}
+
+.color-primary {
+    color: $primary-color;
+}

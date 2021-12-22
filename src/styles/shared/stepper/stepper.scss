@@ -1,0 +1,80 @@
+@import "../../base.scss";
+
+.stepper-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #cdd5da;
+    height: 120px;
+    width: 100%;
+    color: $white;
+    font-weight: bold;
+    box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.24);
+
+    .stepper-step {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: #7c8e9a;
+            border-radius: 20px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .stepper-separator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            height: 5px;
+            width: 100px;
+            background-color: #7c8e9a;
+        }
+    }
+
+    .step-active {
+        span {
+            background-color: $secondary-color;
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+        }
+    }
+
+    .step-completed {
+        span {
+            background-color: $primary-color;
+        }
+    }
+
+    .step-marker {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        bottom: 0;
+        overflow: hidden;
+    }
+    .step-marker:after {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: $white;
+        transform: rotate(45deg);
+        top: 75px;
+        left: 20px;
+        box-shadow: -1px -1px 10px -2px rgba(0, 0, 0, 0.24);
+    }
+}

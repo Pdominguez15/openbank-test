@@ -1,0 +1,30 @@
+@import "../../../../base.scss";
+
+.information-container {
+    .information-images-container {
+        margin-top: 75px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            div {
+                img {
+                    width: 147px;
+                    height: 147px;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+    .footer {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
